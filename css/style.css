@@ -1,0 +1,301 @@
+/* ############################### Tried to maintain the CSS Specificity Hierarchy ############################### */
+
+/* Global Style Rule */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-bottom: 100px;
+}
+
+h1 span {
+    color: #d28;
+}
+
+p {
+    color: #858585;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    width: 100%;
+    height: 200px;
+    background-color: #0b0d17;
+    color: white;
+    padding-bottom: 50px;
+}
+
+/* Global Style ENDS */
+
+/* Navigation Bar Styles */
+/* Added a black background color to the top navigation */
+.topnav {
+    background-color: #d28;
+    overflow: hidden;
+}
+
+/* Styled the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Changed the color of links on hover = green */
+.topnav a:hover {
+    background-color: rgb(0, 252, 134);
+    color: black;
+}
+
+/* Added a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(122, 0, 243);
+    color: white;
+}
+
+/* Flex container and their bottom margin*/
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+/* Fitting the Divided container and gave them the necessary common styles */
+.half-width {
+    float: left;
+    width: 45%;
+}
+
+.half-width img {
+    float: left;
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* Top Side Styles */
+.colored-heading {
+    color: #232320;
+    font-family: "Yeseva One", cursive;
+    font-size: 60px;
+    line-height: 80px;
+    padding-left: 20px;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, rgb(252, 0, 176), rgb(247, 3, 125));
+    border-image-slice: 1;
+    margin-top: 150px;
+    padding-left: 2%;
+    letter-spacing: 2px;
+}
+
+/* Each Anchor Button has a common Explore icon */
+.anchor-btn {
+    width: 50%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    background: #d28;
+    background-image: url(../icons/explore.png);
+    background-repeat: no-repeat;
+    background-position: 10px 6px;
+    background-size: 32px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+.anchor-btn span {
+    text-align: right;
+    padding-left: 30px;
+}
+
+.image-top {
+    margin-left: 110px;
+}
+
+/* MY Mission Section containing 3 cards with illustration */
+#mission-heading {
+    color: #232320;
+    font-family: "Yeseva One", cursive;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.one-third-width {
+    float: left;
+    width: 30%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.one-third-width img {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* Left Mission Card Styles */
+#left-card {
+    background: rgba(72, 162, 172, 0.241);
+    border-radius: 26px;
+}
+
+/* Middle Mission Card Styles */
+#middle-card {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 26px;
+}
+
+/* Right Mission Card Styles */
+#right-card {
+    background: #fff4d6;
+    border-radius: 26px;
+}
+
+/* Article section styles */
+
+/* "Top Article" Styles */
+.upper-middle {
+    background-image: url("../images/middle-background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+
+#develop-texts {
+    margin-left: 50px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.upper-middle img {
+    margin-left: 15%;
+    width: 95%;
+    height: 95%;
+}
+
+/* "Bottom Article" Styles */
+.lower-middle {
+    background-image: url("../images/middle-background.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 15%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+}
+
+#community-texts {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.lower-middle img {
+    width: 95%;
+    height: 95%;
+    margin-right: 5%;
+}
+
+/* Career Overview Section styles */
+.experience-section h1 {
+    margin-left: 1%;
+    padding-left: 5%;
+}
+
+.experience-section {
+    float: left;
+    padding-right: 1%;
+    margin-right: 3%;
+    margin-left: 5%;
+    margin-bottom: 150px;
+}
+
+.experience-heading {
+    color: #4b4b4ace;
+    font-family: "Yeseva One", cursive;
+    font-weight: 10;
+    font-size: 35px;
+    text-align: center;
+}
+
+.work-details {
+    color: #d28;
+    padding-left: 3%;
+}
+
+.exp-details {
+    padding: 3%;
+}
+
+.working-years {
+    color: #545451b3;
+    font-size: 20px;
+    font-family: Monospace, Arial, Helvetica, sans-serif;
+}
+
+/* Left Career Card Styles */
+#left-exp-card {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #fffb7d, #0dd86c);
+    border-image-slice: 1;
+    margin-right: 20px;
+    box-shadow: 12px 15px 32px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Middle Career Card Styles */
+#middle-exp-card {
+    border-left: transparent 8px solid;
+    border-image: linear-gradient(180deg, #eac, #fa0075);
+    border-image-slice: 1;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    box-shadow: 12px 15px 32px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Right Career Card Styles */
+#right-exp-card {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+    margin-left: 20px;
+    box-shadow: 12px 15px 32px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Style of the image of the Career Cards */
+.exp-card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    height: 220px;
+    box-shadow: 5px 5px 15px rgba(99, 100, 100, 0.514);
+}
+
+/* Footer Styles */
+#footer-heading {
+    color: #ffffff;
+    font-family: "Yeseva One", cursive;
+    font-size: 60px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+#copyright-text{
+    color: rgba(255, 217, 0, 0.926);
+}
